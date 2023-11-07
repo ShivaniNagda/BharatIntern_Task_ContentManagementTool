@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(195, 192, 192, 0.15) 0%, rgba(204, 84, 84, 0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(65, 7, 7, 0.4) 120%) #989898;
+ /* background-blend-mode: multiply,multiply; */
+    border: 2px solid rgb(199, 199, 232);
+    box-shadow:4px solid cadetblue;
+}
+h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    /* background-color: linear-gradieant(rgb(16, 7, 7),rgb(94, 91, 91),#100a0a,1); */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%), radial-gradient(at top center, rgba(49, 47, 47, 0.4) 0%, rgba(0,0,0,0.40) 120%) #989898;
+
+}
+.nav-link{
+    font-size: 1.2xrem !important;
+}
+.no-list-style{
+    list-style: none;
+}
+
+.no-list-style li {
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.no-list-style li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.horizontal-list {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+#name-social-container {
+    margin-top: 20vh;
+}
+/* tr{
+    width: 10vw;
+} */
+
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+
+.input-section {
+    margin-bottom: 10px;
+    width: 60vw;
+    /* width: 37cm;
+     */
+     /* width: 50%; */
+}
+
+
+.label-section {
+    display: inline;
+    text-decoration: wavy;
+    font-size: 0.5cm;
+    color: WHITE;
+   
+}
+
+.div-section {
+    height: 1cm;
+    border-radius: 8px;
+    margin: 0.5cm;
+}
+
+.preview {
+    width: 15cm;
+    height: 15cm;
+}
+
+.video-preview {
+    width: 15cm;
+    height: auto;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.input-section input[type="text"],
+.input-section input[type="file"] {
+    margin-left:2%;
+    width: 80%;
+    padding: 5px;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color:rgb(18, 17, 17);
+}
+
+
+#content{
+    width: 80%;
+    height:fit-content !important;
+    
+    
+
+}
+
+
+.card {
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient( #cec8dc 0%, #656565 100%);
+    /* Replace with the path to yourimage */
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
+
+}
+
+.card-header {
+    background-color: #ebe7ed;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}
+footer{
+    color: white;
+}
